@@ -1,0 +1,660 @@
+{
+  "users": [
+    {
+      "_id": "usr_f3c94f5d",
+      "email": "matremanish52@gmail.com",
+      "name": "Manish Matre",
+      "avatarUrl": "https://lh3.googleusercontent.com/a/ACg8ocLuh6Z5jkNOUwL8FbwVBp0XXbMH6serp50W2l-uwKeueUs6AJhHIw=s96-c",
+      "googleId": "113969931744621147797",
+      "passwordHash": null,
+      "role": "owner",
+      "activeWorkspaceId": "ws_founder",
+      "createdAt": "2026-11-12T15:15:50.272Z",
+      "lastLoginAt": "2026-11-12T17:20:27.856Z"
+    }
+  ],
+  "workspaces": [
+    {
+      "_id": "ws_founder",
+      "name": "ViralMotionStudio HQ",
+      "slug": "viralmotionstudio-hq",
+      "ownerUserId": "usr_f3c94f5d",
+      "planId": "agency",
+      "subscriptionStatus": "active",
+      "billingInterval": "monthly",
+      "creditsBalance": 650,
+      "creditsMonthlyAllowance": 350,
+      "channelsLimit": 15,
+      "dailyPublishLimit": 15,
+      "billingCustomerId": null,
+      "subscriptionId": null,
+      "currentPeriodEnd": "2026-12-13T03:49:11.914Z",
+      "customDomain": "viralmotionstudio.toolio.tech",
+      "createdAt": "2026-11-12T14:30:56.008Z",
+      "updatedAt": "2026-11-13T03:49:11.914Z"
+    }
+  ],
+  "credit_transactions": [
+    {
+      "_id": "tx_76f81761",
+      "workspaceId": "ws_founder",
+      "amount": 350,
+      "balanceAfter": 650,
+      "reason": "Agency Scale (monthly) plan credits added",
+      "referenceId": "agency",
+      "createdAt": "2026-11-13T03:49:11.914Z"
+    },
+    {
+      "_id": "tx_758232fe",
+      "workspaceId": "ws_founder",
+      "amount": 200,
+      "balanceAfter": 300,
+      "reason": "Studio Growth (monthly) plan credits added",
+      "referenceId": "studio",
+      "createdAt": "2026-11-13T03:48:57.587Z"
+    },
+    {
+      "_id": "tx_f9a3c44d",
+      "workspaceId": "ws_founder",
+      "amount": 1,
+      "balanceAfter": 100,
+      "reason": "Automatic refund after failed render",
+      "referenceId": "proj_22b365aa",
+      "createdAt": "2026-11-13T02:22:05.432Z"
+    },
+    {
+      "_id": "tx_c4ff98ee",
+      "workspaceId": "ws_founder",
+      "amount": 1,
+      "balanceAfter": 99,
+      "reason": "Automatic refund after failed render",
+      "referenceId": "proj_22b365aa",
+      "createdAt": "2026-11-13T02:22:05.372Z"
+    },
+    {
+      "_id": "tx_7105dac6",
+      "workspaceId": "ws_founder",
+      "amount": -1,
+      "balanceAfter": 98,
+      "reason": "Remotion Shorts 9:16 MP4 render",
+      "referenceId": "proj_22b365aa",
+      "createdAt": "2026-11-12T17:20:52.881Z"
+    },
+    {
+      "_id": "tx_82680026",
+      "workspaceId": "ws_founder",
+      "amount": -1,
+      "balanceAfter": 99,
+      "reason": "Remotion Shorts 9:16 MP4 render",
+      "referenceId": "proj_22b365aa",
+      "createdAt": "2026-11-12T17:20:51.644Z"
+    },
+    {
+      "_id": "tx_27e36722",
+      "workspaceId": "ws_founder",
+      "amount": 1,
+      "balanceAfter": 100,
+      "reason": "Automatic refund after failed render",
+      "referenceId": "proj_ai_hud_02",
+      "createdAt": "2026-11-12T17:20:19.170Z"
+    },
+    {
+      "_id": "tx_05c3de26",
+      "workspaceId": "ws_founder",
+      "amount": 1,
+      "balanceAfter": 99,
+      "reason": "Automatic refund after failed render",
+      "referenceId": "proj_ai_hud_02",
+      "createdAt": "2026-11-12T17:20:19.136Z"
+    },
+    {
+      "_id": "tx_7efae13d",
+      "workspaceId": "ws_founder",
+      "amount": 1,
+      "balanceAfter": 98,
+      "reason": "Automatic refund after failed render",
+      "referenceId": "proj_ai_hud_02",
+      "createdAt": "2026-11-12T17:17:49.590Z"
+    },
+    {
+      "_id": "tx_5361b3c6",
+      "workspaceId": "ws_founder",
+      "amount": -1,
+      "balanceAfter": 97,
+      "reason": "Remotion Shorts 9:16 MP4 render",
+      "referenceId": "proj_ai_hud_02",
+      "createdAt": "2026-11-12T17:17:30.624Z"
+    },
+    {
+      "_id": "tx_8f776a44",
+      "workspaceId": "ws_founder",
+      "amount": -1,
+      "balanceAfter": 98,
+      "reason": "Remotion Shorts 9:16 MP4 render",
+      "referenceId": "proj_ai_hud_02",
+      "createdAt": "2026-11-12T17:17:29.989Z"
+    },
+    {
+      "_id": "tx_e9bcdf8b",
+      "workspaceId": "ws_founder",
+      "amount": -1,
+      "balanceAfter": 99,
+      "reason": "Remotion Shorts 9:16 MP4 render",
+      "referenceId": "proj_ai_hud_02",
+      "createdAt": "2026-11-12T17:17:16.706Z"
+    },
+    {
+      "_id": "tx_init_founder",
+      "workspaceId": "ws_founder",
+      "amount": 100,
+      "balanceAfter": 100,
+      "reason": "Creator Pro monthly render credit allowance",
+      "referenceId": "ws_founder",
+      "createdAt": "2026-11-12T14:30:56.008Z"
+    }
+  ],
+  "billing_invoices": [
+    {
+      "_id": "inv_8ae1bddc",
+      "workspaceId": "ws_founder",
+      "invoiceNumber": "VMS-2026-1002",
+      "amountUsd": 149,
+      "currency": "USD",
+      "status": "paid",
+      "description": "Agency Scale Subscription (monthly)",
+      "planId": "agency",
+      "periodStart": "2026-11-13T03:49:11.914Z",
+      "periodEnd": "2026-12-13T03:49:11.914Z",
+      "provider": "sandbox",
+      "createdAt": "2026-11-13T03:49:11.914Z"
+    },
+    {
+      "_id": "inv_50f42a0b",
+      "workspaceId": "ws_founder",
+      "invoiceNumber": "VMS-2026-1001",
+      "amountUsd": 89,
+      "currency": "USD",
+      "status": "paid",
+      "description": "Studio Growth Subscription (monthly)",
+      "planId": "studio",
+      "periodStart": "2026-11-13T03:48:57.587Z",
+      "periodEnd": "2026-12-13T03:48:57.587Z",
+      "provider": "sandbox",
+      "createdAt": "2026-11-13T03:48:57.587Z"
+    }
+  ],
+  "api_keys": [],
+  "webhook_endpoints": [],
+  "youtube_channels": [
+    {
+      "_id": "ch_a",
+      "channelKey": "channel_A",
+      "channelId": "UCfIwB7ZpQUCq4bG_lVENX3g",
+      "channelTitle": "BEYONDCTX",
+      "niche": "Business stories",
+      "language": "en",
+      "defaultFormat": "short",
+      "dailyLimit": 1,
+      "connected": true,
+      "oauthEmail": null,
+      "brandingColor": "#D4AF37",
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "updatedAt": "2026-11-12T14:17:30.876Z",
+      "workspaceId": "ws_founder"
+    },
+    {
+      "_id": "ch_b",
+      "channelKey": "channel_B",
+      "channelId": null,
+      "channelTitle": "Billionaire Ledger (Channel B)",
+      "niche": "Billionaires & money",
+      "language": "en",
+      "defaultFormat": "short",
+      "dailyLimit": 1,
+      "connected": false,
+      "oauthEmail": null,
+      "brandingColor": "#10B981",
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "updatedAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    },
+    {
+      "_id": "ch_c",
+      "channelKey": "channel_C",
+      "channelId": null,
+      "channelTitle": "Future Compute Lab (Channel C)",
+      "niche": "AI & technology",
+      "language": "en",
+      "defaultFormat": "long-form",
+      "dailyLimit": 1,
+      "connected": false,
+      "oauthEmail": null,
+      "brandingColor": "#00E5FF",
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "updatedAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    }
+  ],
+  "youtube_tokens": [
+    {
+      "_id": "tok_channel_A",
+      "channelKey": "channel_A",
+      "encryptedRefreshToken": "0b8ac8696fb2b8f779d2948a:260d3818297d47a719c25dbb3cb539bd:caa6fd9b9b27b23ee3fda2090a3993bc4e206e7693e076155c1b0c6d178e8c560771682229bceb163bb264aa740d28ea50a755708dc462a4ec4739abdad829d4a6e96cfec33e9d9314e9d17a40a73dc7399fb7e814117e05e5288b08c0a71c611d2cea2de2a5c4",
+      "scope": "https://www.googleapis.com/auth/youtube.readonly https://www.googleapis.com/auth/youtube.upload",
+      "tokenType": "Bearer",
+      "updatedAt": "2026-11-12T14:17:30.876Z",
+      "workspaceId": "ws_founder"
+    }
+  ],
+  "channel_schedules": [
+    {
+      "_id": "sched_a",
+      "channelKey": "channel_A",
+      "enabled": true,
+      "timeIst": "09:00",
+      "format": "short",
+      "compositionId": "RichestCompaniesCinematic",
+      "category": "business-stories",
+      "updatedAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    },
+    {
+      "_id": "sched_b",
+      "channelKey": "channel_B",
+      "enabled": true,
+      "timeIst": "14:00",
+      "format": "short",
+      "compositionId": "GeographySingaporeAnomaly",
+      "category": "geography-explained",
+      "updatedAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    },
+    {
+      "_id": "sched_c",
+      "channelKey": "channel_C",
+      "enabled": true,
+      "timeIst": "20:00",
+      "format": "long-form",
+      "compositionId": "RichestCompaniesLongForm",
+      "category": "ai-technology",
+      "updatedAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    }
+  ],
+  "video_projects": [
+    {
+      "_id": "proj_2e4a2118",
+      "workspaceId": "ws_founder",
+      "title": "How Apple, NVIDIA, and Microsoft built a $15T compute moat",
+      "topic": "How Apple, NVIDIA, and Microsoft built a $15T compute moat",
+      "niche": "Billionaires & money",
+      "format": "long-form",
+      "compositionId": "RichestCompaniesLongForm",
+      "channelKey": "channel_A",
+      "hook": "Behind the world's biggest startups sits trillions in state-backed capital.",
+      "script": "Behind the world's biggest startups sits trillions in state-backed capital. In this breakdown, we trace the numbers, global map footprint, and turning points behind How Apple, NVIDIA, and Microsoft built a $15T compute moat.",
+      "scenes": [
+        {
+          "id": "intro",
+          "label": "Widescreen 3D Cold Open",
+          "visualDirection": "16:9 3D skyline + documentary thesis",
+          "durationSec": 15
+        },
+        {
+          "id": "context",
+          "label": "Global Map & Ranked Comparison",
+          "visualDirection": "Dual-pane map + market cap bars",
+          "durationSec": 25
+        }
+      ],
+      "seo": {
+        "title": "How Apple, NVIDIA, and Microsoft built a $15T compute moat — Full Documentary",
+        "description": "Behind the world's biggest startups sits trillions in state-backed capital.\n\nDeep dive on How Apple, NVIDIA, and Microsoft built a $15T compute moat — produced automatically with ViralMotionStudio (Remotion + AI Motion Graphics).\n\n#Billionairesmoney #MotionDesign #ViralMotionStudio",
+        "tags": [
+          "wealth",
+          "finance",
+          "sovereign funds",
+          "capital",
+          "economics",
+          "documentary"
+        ],
+        "categoryId": "27",
+        "privacyStatus": "private",
+        "publishAtIso": null
+      },
+      "status": "draft",
+      "createdAt": "2026-11-12T17:20:42.312Z"
+    },
+    {
+      "_id": "proj_22b365aa",
+      "workspaceId": "ws_founder",
+      "title": "Why autonomous AI agents will replace every traditional app",
+      "topic": "Why autonomous AI agents will replace every traditional app",
+      "niche": "AI & technology",
+      "format": "short",
+      "compositionId": "AiAgentsHudTech",
+      "channelKey": "channel_A",
+      "hook": "AI isn't limited by code anymore — it's limited by copper, transformers, and power.",
+      "script": "AI isn't limited by code anymore — it's limited by copper, transformers, and power. In this breakdown, we trace the numbers, global map footprint, and turning points behind Why autonomous AI agents will replace every traditional app.",
+      "scenes": [
+        {
+          "id": "hook",
+          "label": "3D Visual Hook",
+          "visualDirection": "3D hero stage + kinetic headline + stat card",
+          "durationSec": 6
+        },
+        {
+          "id": "data",
+          "label": "Data & Map Proof",
+          "visualDirection": "Animated map flyover + market chart",
+          "durationSec": 12
+        },
+        {
+          "id": "insight",
+          "label": "Turning Point Duel",
+          "visualDirection": "Split comparison cards + sparkline",
+          "durationSec": 10
+        },
+        {
+          "id": "outro",
+          "label": "Cinematic CTA",
+          "visualDirection": "3D camera pullback + comment prompt",
+          "durationSec": 5
+        }
+      ],
+      "seo": {
+        "title": "Why autonomous AI agents will replace every traditional app #Shorts",
+        "description": "AI isn't limited by code anymore — it's limited by copper, transformers, and power.\n\nDeep dive on Why autonomous AI agents will replace every traditional app — produced automatically with ViralMotionStudio (Remotion + AI Motion Graphics).\n\n#AItechnology #MotionDesign #ViralMotionStudio",
+        "tags": [
+          "ai infrastructure",
+          "energy",
+          "chips",
+          "technology",
+          "future",
+          "shorts"
+        ],
+        "categoryId": "28",
+        "privacyStatus": "private",
+        "publishAtIso": null
+      },
+      "status": "draft",
+      "createdAt": "2026-11-12T17:16:59.870Z"
+    },
+    {
+      "_id": "proj_richest_01",
+      "title": "World's Richest Companies (Cinematic)",
+      "topic": "World's richest companies worth more than continents",
+      "niche": "Business stories",
+      "format": "short",
+      "compositionId": "RichestCompaniesCinematic",
+      "channelKey": "channel_A",
+      "hook": "Five companies are now worth more than entire continents.",
+      "script": "Five companies are now worth more than entire continents. Combined, just five corporations command over fifteen trillion dollars — outweighing Japan, Germany, and India combined.",
+      "scenes": [
+        {
+          "id": "hook",
+          "label": "3D Monoliths Hook",
+          "visualDirection": "3D gold towers + $15.2T counter",
+          "durationSec": 9
+        },
+        {
+          "id": "gdp-compare",
+          "label": "GDP Scale Comparison",
+          "visualDirection": "Pillar comparison vs Japan/Germany/India",
+          "durationSec": 6.5
+        },
+        {
+          "id": "map",
+          "label": "Global Capital Map",
+          "visualDirection": "Pacific tech corridor to Riyadh arcs",
+          "durationSec": 7.5
+        },
+        {
+          "id": "ranking",
+          "label": "Top 6 Titans",
+          "visualDirection": "Ranked market cap bars",
+          "durationSec": 9
+        },
+        {
+          "id": "shift",
+          "label": "Silicon vs Oil",
+          "visualDirection": "Compute chip vs crude oil duel",
+          "durationSec": 8
+        },
+        {
+          "id": "outro",
+          "label": "3D $5T Race Outro",
+          "visualDirection": "3D orbital ring + CTA",
+          "durationSec": 5.5
+        }
+      ],
+      "seo": {
+        "title": "5 Companies Worth More Than Entire Continents ($15.2T) #Shorts",
+        "description": "How Apple, NVIDIA, Microsoft, Alphabet, and Amazon built a $15+ trillion monopoly bigger than entire nations. Built with ViralMotionStudio.",
+        "tags": [
+          "business",
+          "richest companies",
+          "nvidia",
+          "apple",
+          "finance",
+          "shorts"
+        ],
+        "categoryId": "27",
+        "privacyStatus": "private",
+        "publishAtIso": "2026-11-13T03:30:00.000Z"
+      },
+      "status": "queued",
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    },
+    {
+      "_id": "proj_ai_hud_02",
+      "title": "Why AI Agents Will Replace Apps",
+      "topic": "Why AI agents replace traditional software UI",
+      "niche": "AI & technology",
+      "format": "short",
+      "compositionId": "AiAgentsHudTech",
+      "channelKey": "channel_C",
+      "hook": "Traditional apps are quietly dying because AI agents don't need buttons.",
+      "script": "Traditional apps are quietly dying because AI agents don't need buttons. One prompt triggers planning, API orchestration, and verified execution automatically.",
+      "scenes": [
+        {
+          "id": "ai-hook",
+          "label": "3D Neural Core",
+          "visualDirection": "3D wireframe icosahedron + 91% index",
+          "durationSec": 5.5
+        },
+        {
+          "id": "ai-pipe",
+          "label": "Agent Pipeline",
+          "visualDirection": "Animated SVG workflow path",
+          "durationSec": 7
+        },
+        {
+          "id": "ai-bars",
+          "label": "Benchmark Bars",
+          "visualDirection": "Manual vs Copilot vs Agents",
+          "durationSec": 6.5
+        },
+        {
+          "id": "ai-outro",
+          "label": "Cyber Outro",
+          "visualDirection": "3D core pull-back + CTA",
+          "durationSec": 5.5
+        }
+      ],
+      "seo": {
+        "title": "Why AI Agents Will Replace Every App You Use #Shorts",
+        "description": "Autonomous AI agents complete 91% of multi-step workflows without clicking buttons.",
+        "tags": [
+          "ai",
+          "ai agents",
+          "technology",
+          "automation",
+          "software"
+        ],
+        "categoryId": "28",
+        "privacyStatus": "private",
+        "publishAtIso": "2026-11-13T14:30:00.000Z"
+      },
+      "status": "draft",
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    },
+    {
+      "_id": "proj_sg_geo_03",
+      "title": "How One Tiny Island Out-Earned Empires",
+      "topic": "Singapore's geographic and economic rise",
+      "niche": "Geography explained",
+      "format": "short",
+      "compositionId": "GeographySingaporeAnomaly",
+      "channelKey": "channel_B",
+      "hook": "How did a tiny island with zero oil out-earn historic empires?",
+      "script": "Singapore sits on the Strait of Malacca, turning maritime geography and long-term strategy into 171x GDP per capita growth.",
+      "scenes": [
+        {
+          "id": "geo-hook",
+          "label": "3D Globe Hub",
+          "visualDirection": "3D geodesic globe + $88.4K counter",
+          "durationSec": 6
+        },
+        {
+          "id": "geo-map",
+          "label": "Trade Chokepoint",
+          "visualDirection": "Strait of Malacca shipping arcs",
+          "durationSec": 7.3
+        },
+        {
+          "id": "geo-chart",
+          "label": "GDP Trajectory",
+          "visualDirection": "1965 to present curve",
+          "durationSec": 7.7
+        },
+        {
+          "id": "geo-outro",
+          "label": "Atlas Outro",
+          "visualDirection": "3D globe + strategic takeaway",
+          "durationSec": 5.3
+        }
+      ],
+      "seo": {
+        "title": "How One Tiny Island Out-Earned Empires (171x Growth) #Shorts",
+        "description": "Zero oil, zero farmland — how Singapore leveraged maritime geography into one of the richest nations on Earth.",
+        "tags": [
+          "geography",
+          "singapore",
+          "economics",
+          "wealth",
+          "history"
+        ],
+        "categoryId": "27",
+        "privacyStatus": "private",
+        "publishAtIso": "2026-11-13T08:30:00.000Z"
+      },
+      "status": "draft",
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    }
+  ],
+  "rendered_videos": [
+    {
+      "_id": "vid_richest_01",
+      "projectId": "proj_richest_01",
+      "compositionId": "RichestCompaniesCinematic",
+      "format": "short",
+      "mp4Path": "C:\\Users\\Pc\\Desktop\\anitvideos\\ViralMotionStudio\\out\\RichestCompaniesCinematic.mp4",
+      "mp4Url": "/media/out/RichestCompaniesCinematic.mp4",
+      "thumbnailPath": "C:\\Users\\Pc\\Desktop\\anitvideos\\ViralMotionStudio\\out\\thumbnails\\RichestCompanies-16x9.png",
+      "thumbnailUrl": "/media/out/thumbnails/RichestCompanies-16x9.png",
+      "fileSizeMb": 16.81,
+      "durationSec": 44.47,
+      "resolution": "1080x1920",
+      "fps": 30,
+      "renderedAt": "2026-11-12T14:01:18.321Z",
+      "workspaceId": "ws_founder"
+    }
+  ],
+  "publishing_jobs": [
+    {
+      "_id": "job_cb9f2872",
+      "workspaceId": "ws_founder",
+      "jobKey": "ws_founder:channel_A:vid_richest_01:2026-11-13T03:30",
+      "channelKey": "channel_A",
+      "projectId": "proj_richest_01",
+      "videoId": "vid_richest_01",
+      "format": "short",
+      "status": "failed",
+      "publishAt": "2026-11-13T03:30:00.000Z",
+      "metadata": {
+        "title": "5 Companies Worth More Than Entire Continents ($15.2T) #Shorts",
+        "description": "How Apple, NVIDIA, Microsoft, Alphabet, and Amazon built a $15+ trillion monopoly bigger than entire nations. Built with ViralMotionStudio.",
+        "tags": [
+          "business",
+          "richest companies",
+          "nvidia",
+          "apple",
+          "finance",
+          "shorts"
+        ],
+        "categoryId": "27",
+        "privacyStatus": "private"
+      },
+      "youtubeVideoId": null,
+      "youtubeUrl": null,
+      "retryCount": 1,
+      "uploadProgressPct": 99,
+      "lastError": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+      "simulated": false,
+      "createdAt": "2026-11-13T03:44:58.076Z",
+      "updatedAt": "2026-11-13T03:45:36.850Z"
+    },
+    {
+      "_id": "job_001",
+      "jobKey": "channel_A:vid_richest_01:2026-11-13T09:00:00+05:30",
+      "channelKey": "channel_A",
+      "projectId": "proj_richest_01",
+      "videoId": "vid_richest_01",
+      "format": "short",
+      "status": "failed",
+      "publishAt": "2026-11-13T03:30:00.000Z",
+      "metadata": {
+        "title": "5 Companies Worth More Than Entire Continents ($15.2T) #Shorts",
+        "description": "How Apple, NVIDIA, Microsoft, Alphabet, and Amazon built a $15+ trillion monopoly bigger than entire nations.",
+        "tags": [
+          "business",
+          "richest companies",
+          "nvidia",
+          "apple",
+          "finance"
+        ],
+        "categoryId": "27",
+        "privacyStatus": "private"
+      },
+      "youtubeVideoId": null,
+      "youtubeUrl": null,
+      "retryCount": 2,
+      "uploadProgressPct": 99,
+      "lastError": "The authenticated user doesn't have permissions to upload and set custom video thumbnails.",
+      "simulated": false,
+      "createdAt": "2026-11-12T14:01:18.321Z",
+      "updatedAt": "2026-11-12T17:01:43.445Z",
+      "workspaceId": "ws_founder"
+    }
+  ],
+  "publishing_history": [],
+  "automation_settings": [
+    {
+      "_id": "global_settings",
+      "channelMode": "multiple",
+      "dailyProductionTarget": 15,
+      "monthlyTarget": 450,
+      "publishingMode": "fully-automatic",
+      "formatScope": "both",
+      "defaultPrivacyStatus": "private",
+      "enforcePrivateUntilVerified": true,
+      "schedulerRunning": true,
+      "updatedAt": "2026-11-13T03:49:11.914Z",
+      "workspaceId": "ws_founder"
+    }
+  ]
+}

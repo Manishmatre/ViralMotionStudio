@@ -1,0 +1,13 @@
+services:
+  viralmotionstudio:
+    build: .
+    container_name: viralmotionstudio-saas
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data:/app/data
+      - ./out:/app/out
+      - ./public:/app/public
